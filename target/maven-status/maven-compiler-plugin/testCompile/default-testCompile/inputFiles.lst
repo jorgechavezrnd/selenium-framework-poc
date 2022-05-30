@@ -3,6 +3,7 @@ D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-f
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\CucumberTest.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\conf\DriverConfig.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\pageobjects\SignUpServices.java
+D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\pageobjects\PageBase.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\stepdefinitions\SignUpStepDefs.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\driver\DriverFactory.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\pageobjects\SignUpPageObject.java
