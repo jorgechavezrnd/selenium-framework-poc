@@ -1,18 +1,23 @@
 package com.mesaj.app.stepdefinitions;
 
-import com.mesaj.app.HookDriver;
+import com.mesaj.app.conf.DriverConfig;
 import com.mesaj.app.pageobjects.SignUpServices;
 import com.mesaj.app.util.RandomNumberGenerator;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
 
+@ContextConfiguration(classes = {DriverConfig.class})
 public class SignUpStepDefs {
+
+    @Autowired
+    private SignUpServices signUpServices;
 
     @Given("^Pepito wants to have an account$")
     public void pepito_wants_to_have_an_account() throws InterruptedException {
 
-        SignUpServices signUpServices = new SignUpServices(HookDriver.driver);
         signUpServices.go("http://demo.automationtesting.in/Register.html");
         signUpServices.writeFirstName("Pepito");
         signUpServices.writeLastName("Perez");
