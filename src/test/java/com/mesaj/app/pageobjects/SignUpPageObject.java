@@ -24,19 +24,23 @@ public class SignUpPageObject {
 
     private By genderFemale = By.xpath("//input[@value='FeMale']");
 
-    private By country = By.xpath("countries");
+    private By country = By.id("countries");
 
-    private By dateOfBirthYear = By.xpath("yearbox");
+    private By dateOfBirthYear = By.id("yearbox");
 
     private By dateOfBirthMonth = By.xpath("//select[@ng-model='monthbox']");
 
-    private By dateOfBirthDay = By.xpath("daybox");
+    private By dateOfBirthDay = By.id("daybox");
 
-    private By password = By.xpath("firstpassword");
+    private By password = By.id("firstpassword");
 
-    private By confirmPassword = By.xpath("secondpassword");
+    private By confirmPassword = By.id("secondpassword");
 
-    private By submit = By.xpath("submitbtn");
+    private By submit = By.id("submitbtn");
+
+    public void go(String url) {
+        this.driver.get(url);
+    }
 
     public void writeFirstName(String firstName) {
         this.driver.findElement(this.firstNameTextbox).sendKeys(firstName);
@@ -63,7 +67,7 @@ public class SignUpPageObject {
     }
 
     public void selectCountry(String country) {
-        new Select(this.driver.findElement(this.genderFemale)).selectByValue(country);
+        new Select(this.driver.findElement(this.country)).selectByValue(country);
     }
 
     public void selectBirthDay(String day) {

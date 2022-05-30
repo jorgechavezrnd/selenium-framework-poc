@@ -21,6 +21,14 @@ https://www.udemy.com/course/curso-creacion-framework-con-selenium-spring-y-cucu
 `mvn clean test
 `
 
+#### URL of Automation Demo Site
+
+http://demo.automationtesting.in/Register.html
+
+#### URL of webpage where we can download the driver for chrome
+
+https://chromedriver.chromium.org/downloads
+
 #### Original repository
 
 https://github.com/jdmesalosada/selenium-framework-poc
