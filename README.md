@@ -21,6 +21,13 @@ https://www.udemy.com/course/curso-creacion-framework-con-selenium-spring-y-cucu
 `mvn clean test
 `
 
+#### Command for tests in different environments
+
+`mvn clean test -Denvironment=dev
+`
+`mvn clean test -Denvironment=prod
+`
+
 #### URL of Automation Demo Site
 
 http://demo.automationtesting.in/Register.html
