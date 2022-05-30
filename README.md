@@ -29,6 +29,10 @@ http://demo.automationtesting.in/Register.html
 
 https://chromedriver.chromium.org/downloads
 
+#### URL of webpage where we can download the driver for firefox
+
+https://github.com/mozilla/geckodriver/releases
+
 #### Documentation about Page Factory with Selenium
 
 https://github.com/SeleniumHQ/selenium/wiki/PageFactory
