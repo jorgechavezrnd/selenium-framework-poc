@@ -29,6 +29,10 @@ http://demo.automationtesting.in/Register.html
 
 https://chromedriver.chromium.org/downloads
 
+#### Documentation about Page Factory with Selenium
+
+https://github.com/SeleniumHQ/selenium/wiki/PageFactory
+
 #### Original repository
 
 https://github.com/jdmesalosada/selenium-framework-poc
