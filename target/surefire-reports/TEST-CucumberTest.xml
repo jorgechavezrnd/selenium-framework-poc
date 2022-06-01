@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="CucumberTest" time="21.521" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="CucumberTest" time="17.502" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Client sign up" name="client sign up successfully" time="14.955"/>
-  <testcase classname="Client sign up" name="client sign up failed" time="6.566">
+  <testcase classname="Client sign up" name="client sign up successfully" time="13.52"/>
+  <testcase classname="Client sign up" name="client sign up failed" time="3.982">
     <failure message="expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -74,17 +74,28 @@
 	at com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_not_created(SignUpStepDefs.java:48)
 	at ✽.he should be told that the account was not created(file:///D:/Users/jorge/Projects/UdemyProjects/FrameworkSeleniumSpringCucumber/selenium-framework-poc/src/test/resources/features/signup.feature:11)
 </failure>
-    <system-err>May 31, 2022 10:14:04 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+    <system-out>
+Scenario: client sign up failed                           &amp;#27;[90m# src/test/resources/features/signup.feature:8&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mPepito wants to have an account&amp;#27;[0m                   &amp;#27;[90m# com.mesaj.app.stepdefinitions.SignUpStepDefs.pepito_wants_to_have_an_account()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mhe sends required information to get the account&amp;#27;[0m   &amp;#27;[90m# com.mesaj.app.stepdefinitions.SignUpStepDefs.he_sends_required_information_to_get_the_account()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mhe should be told that the account was not created&amp;#27;[0m &amp;#27;[90m# com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_not_created()&amp;#27;[0m
+      &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_not_created(SignUpStepDefs.java:48)
+	at ?.he should be told that the account was not created(file:///D:/Users/jorge/Projects/UdemyProjects/FrameworkSeleniumSpringCucumber/selenium-framework-poc/src/test/resources/features/signup.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>May 31, 2022 10:26:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-May 31, 2022 10:14:04 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
-INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4ae263bf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7103ab0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@19ccca5]
-May 31, 2022 10:14:04 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerScope
-INFO: Replacing scope &apos;cucumber-glue&apos; from [io.cucumber.spring.GlueCodeScope@5e4fa1da] to [io.cucumber.spring.GlueCodeScope@588cd519]
+May 31, 2022 10:26:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7573e12f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51b1a8f6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a389173]
+May 31, 2022 10:26:23 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerScope
+INFO: Replacing scope &apos;cucumber-glue&apos; from [io.cucumber.spring.GlueCodeScope@4ba89729] to [io.cucumber.spring.GlueCodeScope@178270b2]
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 5219 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 4372 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 1436 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 6566 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 </system-err>
   </testcase>
 </testsuite>

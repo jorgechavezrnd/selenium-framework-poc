@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-01T02:26:16.391Z",
+        "line": 3,
+        "name": "client sign up successfully",
+        "description": "",
+        "id": "client-sign-up;client-sign-up-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6270000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pepito wants to have an account",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.pepito_wants_to_have_an_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1153000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "he sends required information to get the account",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.he_sends_required_information_to_get_the_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he should be told that the account was created",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-01T02:26:23.936Z",
+        "line": 8,
+        "name": "client sign up failed",
+        "description": "",
+        "id": "client-sign-up;client-sign-up-failed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2833000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pepito wants to have an account",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.pepito_wants_to_have_an_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1121000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he sends required information to get the account",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.he_sends_required_information_to_get_the_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[fals]e\u003e but was:\u003c[tru]e\u003e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_not_created(SignUpStepDefs.java:48)\r\n\tat ✽.he should be told that the account was not created(file:///D:/Users/jorge/Projects/UdemyProjects/FrameworkSeleniumSpringCucumber/selenium-framework-poc/src/test/resources/features/signup.feature:11)\r\n",
+              "duration": 12000000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "he should be told that the account was not created",
+            "match": {
+              "location": "com.mesaj.app.stepdefinitions.SignUpStepDefs.he_should_be_told_that_the_account_was_not_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Client sign up",
+    "description": "",
+    "id": "client-sign-up",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signup.feature",
+    "tags": []
+  }
+]
