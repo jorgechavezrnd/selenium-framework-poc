@@ -44,6 +44,14 @@ https://github.com/mozilla/geckodriver/releases
 
 https://github.com/SeleniumHQ/selenium/wiki/PageFactory
 
+#### Documentation about Cucumber Reporting Plugin
+
+https://gitlab.com/monochromata-de/cucumber-reporting-plugin
+
+#### Folder where reports are created (where report-feature_3752441683.html is an example)
+
+`selenium-framework-poc\target\cucumber\cucumber-html-reports\report-feature_3752441683.html`
+
 #### Original repository
 
 https://github.com/jdmesalosada/selenium-framework-poc
