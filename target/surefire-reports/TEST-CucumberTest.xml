@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="CucumberTest" time="20.038" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="CucumberTest" time="18.69" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Client sign up" name="client sign up successfully" time="15.737"/>
-  <testcase classname="Client sign up" name="client sign up failed" time="4.301">
+  <testcase classname="Client sign up" name="client sign up successfully" time="14.362"/>
+  <testcase classname="Client sign up" name="client sign up failed" time="4.328">
     <failure message="expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,19 +87,18 @@ Scenario: client sign up failed                           &amp;#27;[90m# src/tes
 	at ?.he should be told that the account was not created(file:///D:/Users/jorge/Projects/UdemyProjects/FrameworkSeleniumSpringCucumber/selenium-framework-poc/src/test/resources/features/signup.feature:11)
 &amp;#27;[0m
 
-    Embedding 7259db94-9c85-4db4-8718-a5f3acd4956e [image/png 464973 bytes]
+    Embedding b6a7a254-9773-43ab-b5c2-57dcc8c7d1aa [image/png 122042 bytes]
 
 </system-out>
-    <system-err>May 31, 2022 10:33:17 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+    <system-err>May 31, 2022 10:38:52 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-May 31, 2022 10:33:17 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
-INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1948ea69, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@47e4d9d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49798e84]
-May 31, 2022 10:33:17 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerScope
-INFO: Replacing scope &apos;cucumber-glue&apos; from [io.cucumber.spring.GlueCodeScope@3015db78] to [io.cucumber.spring.GlueCodeScope@515ebef3]
+May 31, 2022 10:38:52 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49798e84, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6ed06f69, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3015db78]
+May 31, 2022 10:38:52 PM org.springframework.beans.factory.support.DefaultListableBeanFactory registerScope
+INFO: Replacing scope &apos;cucumber-glue&apos; from [io.cucumber.spring.GlueCodeScope@545607f2] to [io.cucumber.spring.GlueCodeScope@39109136]
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-1654050799398	Marionette	WARN	Ignoring event &apos;DOMContentLoaded&apos; because document has an invalid readyState of &apos;complete&apos;.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 5550 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 &gt; eval line 2219 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 </system-err>
   </testcase>
 </testsuite>

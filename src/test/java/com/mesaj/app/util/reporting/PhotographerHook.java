@@ -19,8 +19,12 @@ public class PhotographerHook {
     public void takeScreenShot(Scenario scenario) {
 
         try {
-            final byte[] screenshot = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.BYTES);
-            scenario.embed(screenshot, "image/png", UUID.randomUUID().toString());
+
+            if (scenario.isFailed()) {
+                final byte[] screenshot = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.BYTES);
+                scenario.embed(screenshot, "image/png", UUID.randomUUID().toString());
+            }
+
         } catch (WebDriverException wde) {
             System.out.println("There was an error taking the screenshot: " + wde.getMessage());
         }
