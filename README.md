@@ -28,6 +28,12 @@ https://www.udemy.com/course/curso-creacion-framework-con-selenium-spring-y-cucu
 `mvn clean test -Denvironment=prod
 `
 
+#### Run Elasticsearch and Kibana
+- `docker-compose up`
+- Elasticsearch: http://localhost:9200
+- Kibana: http://localhost:5601
+- If Elasticsearch does not start in Windows (wsl), use this command: `sudo sysctl -w vm.max_map_count=262144`
+
 #### URL of Automation Demo Site
 
 http://demo.automationtesting.in/Register.html
