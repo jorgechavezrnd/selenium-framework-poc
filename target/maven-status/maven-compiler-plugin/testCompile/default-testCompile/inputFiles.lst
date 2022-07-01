@@ -14,3 +14,5 @@ D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-f
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\models\User.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\conf\DriverConfig.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\PhotographerHook.java
+D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\HookReporter.java
+D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\ScenarioExecutionInfo.java
