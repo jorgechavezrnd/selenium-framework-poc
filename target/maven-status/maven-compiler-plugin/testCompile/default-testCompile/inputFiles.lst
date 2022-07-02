@@ -6,6 +6,7 @@ D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-f
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\stepdefinitions\SignUpStepDefs.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\tasks\NavigateTo.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\driver\DriverFactory.java
+D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\JReporter.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\pageobjects\SignUpPageObject.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\enums\Gender.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\RandomNumberGenerator.java
@@ -14,5 +15,4 @@ D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-f
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\models\User.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\conf\DriverConfig.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\PhotographerHook.java
-D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\HookReporter.java
 D:\Users\jorge\Projects\UdemyProjects\FrameworkSeleniumSpringCucumber\selenium-framework-poc\src\test\java\com\mesaj\app\util\reporting\ScenarioExecutionInfo.java
